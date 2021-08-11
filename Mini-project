@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int x;
+    printf("\n\n");
+    printf("****ARCADE GAMES******\n\n");
+    printf("   • LIST OF GAMES\n");
+    printf("   1. TIC TAC TOE\n");
+    printf("   2. GUESS THE NUMBER\n\n");
+    printf("   • ENTER AN OPTION:");
+    scanf("%d",&x);
+    
+    switch(x){
+        case 1:printf("the code for tic tac toe\n");
+        break;
+        
+        case 2:printf("the code for guess the number\n");
+        break;
+        
+        default : printf("enter a vaid option");
+    }
+    return 0;
+}
